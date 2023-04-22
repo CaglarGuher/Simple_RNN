@@ -20,7 +20,7 @@ if __name__ == "__main__":
     parser.add_argument('--batch_size', type=int, default=12, help="Batch size for training")
     parser.add_argument('--timesteps', type=int, default=50, help="Timesteps for truncated backpropagation through time")
     parser.add_argument('--learning_rate', type=float, default=0.001, help="Learning rate for the optimizer")
-    parser.add_argument('--generated_word',type = int,default=0.001, help="How many word you want to generate")
+    parser.add_argument('--generated_word',type = int,default=100, help="How many word you want to generate")
     args = parser.parse_args()
 
 logging.basicConfig(
