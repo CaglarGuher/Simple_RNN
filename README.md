@@ -26,5 +26,5 @@ To train the model, provide the necessary arguments such as input file, output f
 - `--batch_size`: Batch size for training (default: 12).
 - `--timesteps`: Timesteps for truncated backpropagation through time (default: 50).
 - `--learning_rate`: Learning rate for the optimizer (default: 0.001).
-
-After training, the model generates 1000 words and saves them to the output file specified.
+- `--generated_words`: How many words user want go generate (default: 100).
+After training, the model generates  words and saves them to the output file specified.
